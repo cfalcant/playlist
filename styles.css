@@ -1,0 +1,129 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  color: blue;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.top {
+  background-color: #A6A6A6;
+  border-bottom: 1px solid black;
+  height: 50px;
+  width: 100%;
+
+}
+
+.middle {
+height: 700px;
+width: 100%;
+}
+
+.leftside {
+  background-color: #F2F2F2;
+  height: 700px;
+  width: 49%;
+  margin: 0px;
+  float: left;
+}
+
+.trackbin {
+  /*border: 1px solid black;*/
+  line-height: 200px;
+  height: 250px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+
+}
+
+.trackbin p {
+  color: purple;
+  text-align: center;
+  font-size: 50px;
+  float: none;
+  margin: -30px;
+}
+
+.button {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #333;
+  color: white;
+  padding: 5px;
+  height: 50px;
+  width: 180px;
+  margin: auto;
+}
+
+.button p {
+  font-size: 25px;
+  margin-top: -75px;
+  color: white;
+}
+
+.rightside {
+  border: 1px solid black;
+  height: 700px;
+  width: 50%;
+  float: right;
+  margin: 0px;
+}
+
+.topalbum {
+border: 1px solid black;
+height: 100px;
+width: 100px;
+
+}
+.middlealbum {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+}
+
+.bottomalbum {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  opacity: .19;
+}
+
+/*.topalbum {
+border: 1px solid black;
+height: 200px;
+width: 200px;
+
+}*/
+
+/*.middlealbum {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+}
+
+.bottomalbum {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+}*/
+
+.bottom {
+background-color: #A6A6A6;
+border-top: 1px solid black;
+height: 60px;
+width: 100%;
+margin-bottom: 0;
+padding-bottom: 0;
+}
