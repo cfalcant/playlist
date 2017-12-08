@@ -7,7 +7,7 @@ body {
 img {
   height: 100%;
   width: 100%;
-  opacity: .19;
+
 }
 
 form {
@@ -81,6 +81,10 @@ height: 700px;
   width: 50%;
   float: right;
   margin: 0px;
+}
+
+.trackpic {
+  opacity: .19;
 }
 
 .topalbum {
