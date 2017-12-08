@@ -1,27 +1,30 @@
-html, body {
+body {
   height: 100%;
   width: 100%;
-  color: blue;
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
+}
+img {
+  height: 100%;
+  width: 100%;
+  opacity: .19;
 }
 
 .container {
-  margin-bottom: 0;
-  padding-bottom: 0;
+  box-sizing:border-box;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .top {
   background-color: #A6A6A6;
   border-bottom: 1px solid black;
   height: 50px;
-  width: 100%;
 
 }
 
 .middle {
 height: 700px;
-width: 100%;
 }
 
 .leftside {
@@ -69,7 +72,7 @@ width: 100%;
 }
 
 .rightside {
-  border: 1px solid black;
+  position: relative;
   height: 700px;
   width: 50%;
   float: right;
@@ -77,53 +80,36 @@ width: 100%;
 }
 
 .topalbum {
-border: 1px solid black;
-height: 100px;
-width: 100px;
-
-}
-.middlealbum {
-  border: 1px solid black;
-  height: 100px;
-  width: 100px;
-}
-
-.bottomalbum {
-  border: 1px solid black;
-  height: 100px;
-  width: 100px;
-}
-
-img {
-  height: 100%;
-  width: 100%;
-  opacity: .19;
-}
-
-/*.topalbum {
+position: absolute;
+top: 25px;
+left: 32%;
 border: 1px solid black;
 height: 200px;
 width: 200px;
 
-}*/
-
-/*.middlealbum {
+}
+.middlealbum {
+  position: absolute;
+  top: 250px;
+  left: 32%;
   border: 1px solid black;
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
 }
 
 .bottomalbum {
+  position: absolute;
+  top: 475px;
+  left: 32%;
   border: 1px solid black;
-  height: 100px;
-  width: 100px;
-}*/
+  height: 200px;
+  width: 200px;
+}
 
 .bottom {
 background-color: #A6A6A6;
 border-top: 1px solid black;
 height: 60px;
-width: 100%;
-margin-bottom: 0;
-padding-bottom: 0;
+margin-bottom: 0px;
+padding-bottom: 15px;
 }
