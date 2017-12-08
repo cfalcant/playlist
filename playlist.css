@@ -22,15 +22,61 @@ body {
 }
 
 .topmiddle {
+  border: 1px solid black;
+  height: 200px;
 
 }
 
 .bottommiddle {
+  margin: auto;
+  height: 300px;
+  width: 800px;
+}
 
+.selectorbox {
+  border: 1px solid black;
+  background-color: #EDEDED;
+  height: 200px;
+  width: 750px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.button1 {
+border: 1px solid black;
+border-radius: 10px;
+background-color: #333;
+height: 50px;
+width: 200px;
+margin: 10px 10px 10px 24px;
+}
+
+.button1 p {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.button2 {
+border: 1px solid black;
+border-radius: 10px;
+background-color: #333;
+height: 50px;
+width: 200px;
+margin: -62px 0px 20px 250px;
+}
+
+.button2 p {
+  text-align: center;
+  color: white;
+  font-size: 20px;
 }
 
 .bottom {
   height: 50px;
   background-color: #666;
+}
 
+.bottom p {
+  color: white;
 }
