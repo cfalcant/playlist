@@ -10,6 +10,11 @@ img {
   opacity: .19;
 }
 
+form {
+  padding-left: 35px;
+  margin-top: -130px;
+}
+
 .container {
   box-sizing:border-box;
   margin-bottom: 0px;
@@ -66,9 +71,8 @@ height: 700px;
 }
 
 .button p {
-  font-size: 25px;
+  /*font-size: 25px;*/
   margin-top: -75px;
-  color: white;
 }
 
 .rightside {
